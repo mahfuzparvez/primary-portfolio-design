@@ -1,0 +1,115 @@
+*{      
+    margin: 0px;
+}
+/* common style */
+.primary-btn{
+    padding: 10px 20px;
+    background-color: #F15B22;
+    color: aliceblue;
+    font-weight: 900;
+    border: none;
+    border-radius: 2.5px;
+}
+.primary-p-text {
+    margin-top: 8px;
+    margin-bottom: 18px;
+    font-size: 24px;
+    font-weight: 200;
+    color: gray;
+}
+/* header style */
+.header{
+    display: flex;
+    justify-content: end;
+    background-image: url(/images/banner/banner1.png);
+    background-repeat: no-repeat;
+    height: 700px;
+    margin-bottom: 80px;
+}
+.header-contain{
+    margin-top: 18%;
+    margin-right: 8%;
+    text-align: end;
+}
+.header-contain h1{
+    font-size: 50px;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+/* about style */
+.about-section{
+    display: flex;
+    justify-content: space-around;
+    margin: 40px;
+}
+.text-content{
+    width: 500px;
+    margin-top: 15%;
+    /* margin-left: 30px; */
+}
+.text-content h1{
+    font-size: 40px;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.text-content ul li{
+    margin-left: -35px;
+    color: rgb(93, 93, 93);
+    margin-top: 5px;
+    list-style: none;
+}
+.text-content ul li:before{
+    content: '✓';
+    color: #00ff22;
+    margin-right: 7px;
+    font-size: 20px;
+    font-weight:bolder;
+}
+/* My Plans style */
+#plan{
+    text-align: center;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 70px 0px 70px 0px
+}
+.features{
+    display: flex;
+    justify-content: center;
+    margin: 0px 0px 70px 0px;
+}
+.individual-feature{
+    text-align: center;
+ border-radius: 5px;
+ padding: 20px;
+ margin-right: 50px;
+ background-color: rgba(247, 231, 210, 0.249);
+ width: 180px;
+}
+.individual-feature h3{
+    font-size: 23px;
+}
+.individual-feature p{
+    color: gray;
+    font-size: 15px;
+}
+.plans-image-div{
+ background-image: url("/images/gradient1.png");
+ background-repeat: no-repeat;
+ background-position: cover;
+ height: 500px;
+ margin-top: 40px;
+}
+.plans-image-div div h1{
+    font-size: 40px;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: floralwhite;
+    margin-bottom: 10px;
+}
+.plans-image-div div {
+    padding: 90px 0px 0px 90px;
+}
